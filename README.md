@@ -1,3 +1,8 @@
+![](pix/skull_028.png)
+    
+**S-Terms** Problm » [[ clck ]](https://ioinformatics.org/files/ioi1991round2.pdf) ;
+
+![](pix/xygokecTBeHa3.png)
 
 ```JavaScript
 (S(S(S(S(S(S(SS (S(S(S(S(S((SSS (S(S(S(S((SS(SS (S(S(S(S((S(SSS (S(S(S(S(((SSSS 
@@ -85,10 +90,7 @@
 (((((SSS((SSSSS (((((SS(SSSS(SS (((((SS(SSS(SSS (((((SS(SS(SSSS (((((SS(S(SSSSS 
 (((((SS((SSSSSS (((((S(SSSSS(SS (((((S(SSSS(SSS (((((S(SSS(SSSS (((((S(SS(SSSSS 
 (((((S(S(SSSSSS (((((S((SSSSSSS ((((((SSSSSS(SS ((((((SSSSS(SSS ((((((SSSS(SSSS 
-((((((SSS(SSSSS ((((((SS(SSSSSS ((((((S(SSSSSSS (((((((SSSSSSSS            Exit
+((((((SSS(SSSSS ((((((SS(SSSSSS ((((((S(SSSSSSS (((((((SSSSSSSS            Why?
 ```
 
-![](pix/skull_028.png)
-    
-**S-Terms** Problm » [[ clck ]](https://ioinformatics.org/files/ioi1991round2.pdf) ;
-
+[[ _\_7w\_-Rv_CE ]](https://youtu.be/__7w_-Rv_CE)
