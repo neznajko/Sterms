@@ -3,6 +3,7 @@
 #[40]###################################
 C, D, S = b"()S"           # uess typing
 #[72]###################################################################
+import sys
 #[64]###########################################################
 #
 # V. *** S-TERMS PROBLEM (Selected for the 2nd round)
@@ -158,8 +159,8 @@ def convýort(p):               #
 #[..]########################## convýort
 #[56]###################################################
 def gen_sterm(n):
-    if n == 1: return [b'S']
-    if n == 2: return [b'(SS']
+    if n == 1: return [bytearray(b'S')]
+    if n == 2: return [bytearray(b'(SS')]
     ls = algoritPm(n - 1)
     for i in range(len(ls)): convýort(ls[i])
     return ls
@@ -230,13 +231,36 @@ def reduce(a):                 #
 #[40]###################################
 def normalize(a):
     ls = []
-    while reduce(a):
+    while reduce(a) and len(ls) < 30:
         ls.append(a[:])
     return ls
 ###################[##]####### normalize
+#[80]############# To run the program with n=10 and mode=2 type ./Sterms.py 10 2
+#mode#1#will#run#point#1,#mode#2#point#5########################################
+def geropt():
+    args = [5, 1] # n, mode
+    for c, v in enumerate(sys.argv[1:]):
+        args[c] = int(v)
+    return args
+####################################[##]################################# geropt
+#[64]###########################################################
+def mode2(n):
+    ls = gen_sterm(n)
+    deviant = 0
+    for a in ls:
+        norm = normalize(a[:])
+        l = len(norm)
+        if l == 0: deviant += 1
+        print(a.decode("utf-8"), l, con_sterm(norm, sep=" "))
+    print("deviant/total: {}/{}".format(deviant, len(ls)))    
+####################################[##]################## mode2
 if __name__ == '__main__':
-    a = bytearray(b"((((SS(SSS(SS")
-    print(con_sterm(normalize(a)))    
-#[80]###################################################################### log:
+    n, mode = geropt()
+    print("n={}, mode={}".format(n, mode))
+    if mode == 1:
+        write_sterm(n)
+    else:
+        mode2(n)
+#############[##]########################################################## log:
 # cure:
 # next:
