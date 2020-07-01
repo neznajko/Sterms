@@ -92,5 +92,6 @@
 (((((S(S(SSSSSS (((((S((SSSSSSS ((((((SSSSSS(SS ((((((SSSSS(SSS ((((((SSSS(SSSS 
 ((((((SSS(SSSSS ((((((SS(SSSSSS ((((((S(SSSSSSS (((((((SSSSSSSS            Why?
 ```
+![](pix/vandal-2.png)
 
 [[ _\_7w\_-Rv_CE ]](https://youtu.be/__7w_-Rv_CE)
